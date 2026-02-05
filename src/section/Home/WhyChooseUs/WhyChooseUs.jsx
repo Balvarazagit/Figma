@@ -1,8 +1,8 @@
 import "./WhyChooseUs.css";
-import teamImg from "../../../assets/whychoose.png";
-import icon1 from "../../../assets/whychoose1.png";
-import icon2 from "../../../assets/whychoose2.png";
-import icon3 from "../../../assets/whychoose3.png";
+import teamImg from "../../../assets/Whychoose.png";
+import icon1 from "../../../assets/Whychoose1.png";
+import icon2 from "../../../assets/Whychoose2.png";
+import icon3 from "../../../assets/Whychoose3.png";
 
 const WhyChooseUs = () => {
   return (
