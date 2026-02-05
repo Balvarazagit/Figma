@@ -1,0 +1,151 @@
+/* =========================
+   BASE (Desktop)
+========================= */
+
+.technologies {
+  background: #000;
+  padding: 120px 60px;
+  color: #fff;
+  text-align: center;
+}
+
+.tech-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.tech-badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #d4d4d4;
+  margin-bottom: 18px;
+}
+
+.technologies h2 {
+  font-size: 38px;
+  margin-bottom: 14px;
+}
+
+.technologies p {
+  max-width: 720px;
+  margin: 0 auto 70px;
+  font-size: 14px;
+  color: #b5b5b5;
+  line-height: 1.7;
+}
+
+/* =========================
+   TECH GRID
+========================= */
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 32px;
+  justify-items: center;
+}
+
+/* =========================
+   TECH CARD
+========================= */
+
+.tech-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 24px;
+  background: #0c0c0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px;
+  transition: all 0.3s ease;
+}
+
+.tech-circle img {
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+/* HOVER */
+.tech-circle:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 20px 50px rgba(250, 204, 21, 0.08);
+}
+
+.tech-circle:hover img {
+  opacity: 1;
+  filter: grayscale(0);
+}
+
+/* =========================
+   LAPTOP / TABLET (≤1024px)
+========================= */
+
+@media (max-width: 1024px) {
+  .technologies {
+    padding: 100px 40px;
+  }
+
+  .technologies h2 {
+    font-size: 32px;
+  }
+
+  .technologies p {
+    margin-bottom: 60px;
+  }
+
+  .tech-circle {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* =========================
+   MOBILE (≤768px)
+========================= */
+
+@media (max-width: 768px) {
+  .technologies {
+    padding: 80px 24px;
+  }
+
+  .technologies h2 {
+    font-size: 28px;
+  }
+
+  .technologies p {
+    font-size: 13px;
+    margin-bottom: 50px;
+  }
+
+  .tech-circle {
+    width: 110px;
+    height: 110px;
+    padding: 18px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (≤480px)
+========================= */
+
+@media (max-width: 480px) {
+  .technologies h2 {
+    font-size: 24px;
+  }
+
+  .tech-circle {
+    width: 96px;
+    height: 96px;
+    padding: 16px;
+  }
+
+  .tech-circle img {
+    max-width: 60%;
+  }
+}

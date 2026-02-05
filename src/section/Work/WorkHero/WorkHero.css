@@ -1,0 +1,89 @@
+.work-hero {
+  padding: 160px 60px 120px;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: left;
+  color: #fff;
+}
+
+/* BADGE */
+.badge {
+  display: inline-block;
+  padding: 6px 14px;
+  font-size: 12px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #d4d4d4;
+  margin-bottom: 18px;
+}
+
+/* TITLE */
+.work-hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 18px;
+}
+
+.work-hero h1 span {
+  color: #facc15;
+}
+
+/* DESCRIPTION */
+.work-hero p {
+  max-width: 620px;
+  font-size: 15px;
+  color: #cfcfcf;
+  line-height: 1.7;
+}
+
+/* ---------------- TABLET (≤1024px) ---------------- */
+
+@media (max-width: 1024px) {
+  .work-hero {
+    padding: 150px 40px 110px;
+  }
+
+  .work-hero h1 {
+    font-size: 40px;
+  }
+}
+
+/* ---------------- MOBILE (≤768px) ---------------- */
+
+@media (max-width: 768px) {
+  .work-hero {
+    padding: 130px 30px 90px;
+    text-align: center;
+  }
+
+  .work-hero p {
+    margin: 0 auto;
+  }
+
+  .work-hero h1 {
+    font-size: 34px;
+  }
+}
+
+/* ---------------- SMALL MOBILE (≤480px) ---------------- */
+
+@media (max-width: 480px) {
+  .work-hero {
+    padding: 110px 18px 80px;
+  }
+
+  .badge {
+    font-size: 11px;
+    padding: 5px 12px;
+  }
+
+  .work-hero h1 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .work-hero p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+}

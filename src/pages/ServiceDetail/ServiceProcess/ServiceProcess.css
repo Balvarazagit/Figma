@@ -1,0 +1,179 @@
+.service-process {
+  background: radial-gradient(circle at top, #111 0%, #000 60%);
+  color: #fff;
+  padding: 120px 6%;
+  text-align: center;
+  position: relative;
+}
+
+/* TAG */
+.process-tag {
+  background: #1b1b1b;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #aaa;
+  display: inline-block;
+}
+
+/* TITLE */
+.service-process h2 {
+  margin-top: 22px;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.service-process h2 span {
+  color: #f7c600;
+}
+
+/* ---------------- STEPS ---------------- */
+
+.process-steps {
+  margin-top: 90px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  position: relative;
+}
+
+/* Horizontal Line (Desktop only) */
+.process-steps::before {
+  content: "";
+  position: absolute;
+  top: 28px;
+  left: 6%;
+  right: 6%;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    #333 10%,
+    #333 90%,
+    transparent
+  );
+}
+
+.process-step {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Number Circle */
+.step-circle {
+  width: 48px;
+  height: 48px;
+  background: #f7c600;
+  color: #000;
+  font-weight: 600;
+  border-radius: 50%;
+  margin: 0 auto 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 0 6px #000;
+  font-size: 14px;
+}
+
+/* STEP TEXT */
+.process-step h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.process-step p {
+  font-size: 14px;
+  color: #9a9a9a;
+  line-height: 1.7;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+/* ---------------- TABLET (≤1024px) ---------------- */
+
+@media (max-width: 1024px) {
+  .service-process {
+    padding: 100px 6%;
+  }
+
+  .service-process h2 {
+    font-size: 36px;
+  }
+
+  .process-steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px 40px;
+    margin-top: 70px;
+  }
+
+  .process-steps::before {
+    display: none;
+  }
+}
+
+/* ---------------- MOBILE (≤768px) ---------------- */
+
+@media (max-width: 768px) {
+  .service-process {
+    padding: 90px 24px;
+  }
+
+  .service-process h2 {
+    font-size: 30px;
+  }
+
+  .process-steps {
+    grid-template-columns: 1fr;
+    gap: 56px;
+    margin-top: 60px;
+  }
+
+  .step-circle {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 18px;
+  }
+
+  .process-step h4 {
+    font-size: 17px;
+  }
+
+  .process-step p {
+    font-size: 14px;
+    max-width: 320px;
+  }
+}
+
+/* ---------------- SMALL MOBILE (≤480px) ---------------- */
+
+@media (max-width: 480px) {
+  .service-process {
+    padding: 80px 18px;
+  }
+
+  .process-tag {
+    font-size: 12px;
+  }
+
+  .service-process h2 {
+    font-size: 24px;
+    line-height: 1.35;
+  }
+
+  .step-circle {
+    width: 40px;
+    height: 40px;
+    font-size: 13px;
+  }
+
+  .process-step h4 {
+    font-size: 16px;
+  }
+
+  .process-step p {
+    font-size: 13px;
+  }
+}

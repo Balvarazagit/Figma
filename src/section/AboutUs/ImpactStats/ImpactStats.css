@@ -1,0 +1,148 @@
+/* =========================
+   BASE (Desktop)
+========================= */
+
+.impact-stats {
+  background: #000;
+  padding: 80px 80px;
+}
+
+.impact-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* CARD */
+.impact-card {
+  background: linear-gradient(180deg, #121212, #0b0b0b);
+  border-radius: 22px;
+  padding: 28px 26px;
+  color: white;
+  box-shadow: 0 0 0 1px #1f1f1f;
+  transition: all 0.3s ease;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.impact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 40px rgba(250, 204, 21, 0.08);
+}
+
+/* IMAGE */
+.about_impact_image {
+  flex-shrink: 0;
+}
+
+.about_impact_image img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+/* CONTENT */
+.about_impact_content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* VALUE */
+.about_impact_content h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+  padding-bottom: 18px;
+  border-bottom: 2px dotted #1f1f1f;
+}
+
+/* TITLE */
+.about_impact_content .title {
+  font-size: 13px;
+  color: #e5e5e5;
+  line-height: 1.4;
+}
+
+/* NOTE */
+.about_impact_content span {
+  font-size: 12px;
+  color: #9a9a9a;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+/* =========================
+   TABLET (≤1024px)
+========================= */
+
+@media (max-width: 1024px) {
+  .impact-stats {
+    padding: 70px 40px;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+
+  .about_impact_content h3 {
+    font-size: 26px;
+  }
+}
+
+/* =========================
+   MOBILE (≤768px)
+========================= */
+
+@media (max-width: 768px) {
+  .impact-stats {
+    padding: 60px 24px;
+  }
+
+  .impact-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .impact-card {
+    padding: 22px 20px;
+  }
+
+  .about_impact_image img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .about_impact_content h3 {
+    font-size: 24px;
+    padding-bottom: 14px;
+  }
+}
+
+/* =========================
+   SMALL MOBILE (≤480px)
+========================= */
+
+@media (max-width: 480px) {
+  .impact-stats {
+    padding: 50px 18px;
+  }
+
+  .impact-card {
+    gap: 14px;
+  }
+
+  .about_impact_content .title {
+    font-size: 12px;
+  }
+
+  .about_impact_content span {
+    font-size: 11px;
+  }
+}

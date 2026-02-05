@@ -1,0 +1,166 @@
+.contact-hero {
+  padding: 140px 80px 100px;
+  color: #fff;
+}
+
+/* HERO CONTENT */
+.contact_content {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-hero h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 14px;
+}
+
+.contact-hero h1 span {
+  color: #facc15;
+}
+
+.contact-hero p {
+  font-size: 15px;
+  color: #cfcfcf;
+  line-height: 1.7;
+}
+
+/* IMAGE + FORM WRAPPER */
+.contact_box {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 40px;
+  align-items: start;
+}
+
+/* IMAGE */
+.contact_box-image {
+  border-radius: 26px;
+  overflow: hidden;
+}
+
+.contact_box-image img {
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+}
+
+/* FORM CARD */
+.contact_box-form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 26px;
+  color: #000;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4%;
+}
+
+/* FORM GROUPS */
+.form-group {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 18px;
+}
+
+.form-group.full {
+  width: 100%;
+}
+
+/* INPUTS */
+.contact_box-form input,
+.contact_box-form select,
+.contact_box-form textarea {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  font-size: 14px;
+}
+
+.contact_box-form textarea {
+  resize: none;
+  height: 110px;
+}
+
+/* BUTTON */
+.send-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  background: #facc15;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.send-btn:hover {
+  background: #eab308;
+}
+
+/* ---------------- TABLET (≤1024px) ---------------- */
+
+@media (max-width: 1024px) {
+  .contact-hero {
+    padding: 120px 40px 90px;
+  }
+
+  .contact-hero h1 {
+    font-size: 40px;
+  }
+
+  .contact_box {
+    grid-template-columns: 1fr;
+  }
+
+  .contact_box-image img {
+    height: 360px;
+  }
+}
+
+/* ---------------- MOBILE (≤768px) ---------------- */
+
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: 110px 30px 80px;
+  }
+
+  .contact-hero h1 {
+    font-size: 32px;
+  }
+
+  .contact_box-form {
+    padding: 30px;
+  }
+
+  .form-group {
+    width: 100%;
+  }
+}
+
+/* ---------------- SMALL MOBILE (≤480px) ---------------- */
+
+@media (max-width: 480px) {
+  .contact-hero {
+    padding: 100px 18px 70px;
+  }
+
+  .contact-hero h1 {
+    font-size: 26px;
+  }
+
+  .contact-hero p {
+    font-size: 14px;
+  }
+
+  .contact_box-image img {
+    height: 280px;
+  }
+
+  .contact_box-form {
+    padding: 24px;
+  }
+}

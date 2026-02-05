@@ -1,0 +1,146 @@
+
+.work {
+  min-height: 100vh;
+  background-color: black;
+
+  background-image:
+    url("../../assets/Dotted BG.png"),
+    url("../../assets/Subtract.png");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    center top,
+    center center;
+
+  background-size:
+    1100px auto,
+    1400px auto;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.work-detail {
+  color: #fff;
+  padding: 100px 8%;
+}
+
+.work-hero {
+  max-width: 900px;
+  margin-bottom: 60px;
+}
+
+.work-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.work-hero h1 span {
+  color: #f5c400;
+}
+
+.work-hero p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #cfcfcf;
+}
+
+.work-content{
+background-color: #000;
+color: #fff;
+}
+
+.work-image-wrapper {
+  background: #111;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.work-image-wrapper img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+.not-found {
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.work-section {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.work-section h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.work-section h2::after {
+  content: "";
+  width: 40px;
+  height: 2px;
+  background: #f5c400;
+  display: block;
+  margin-top: 8px;
+}
+
+.work-section p {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #cfcfcf;
+  margin-bottom: 16px;
+}
+
+/* IMAGE GRID */
+.work-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+}
+
+.grid-card {
+  background: #111;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+}
+
+.grid-card img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .work-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.content-wrapper {
+  padding-bottom: 10px; 
+}
+
+.work-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto; 
+  padding: 0 20px;
+}

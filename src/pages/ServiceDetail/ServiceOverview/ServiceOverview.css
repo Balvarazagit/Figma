@@ -1,0 +1,147 @@
+.service-overview {
+  background: #000;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.service-overview-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 64px;
+}
+
+/* LEFT CONTENT */
+.overview-left p {
+  color: #d1d1d1;
+  line-height: 1.85;
+  margin-bottom: 26px;
+  font-size: 16px;
+}
+
+/* RIGHT CONTENT */
+.overview-right h3 {
+  font-size: 22px;
+  margin-bottom: 26px;
+  font-weight: 600;
+}
+
+.overview-right ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.overview-right li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 20px;
+  color: #d1d1d1;
+  line-height: 1.6;
+}
+
+.overview-right li strong {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* CHECK ICON */
+.check {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  margin-top: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check img {
+  width: 100%;
+  opacity: 0.9;
+}
+
+/* -------------------- */
+/* TABLET (≤1024px) */
+/* -------------------- */
+@media (max-width: 1024px) {
+  .service-overview {
+    padding: 90px 0;
+  }
+
+  .service-overview-container {
+    gap: 48px;
+  }
+
+  .overview-left p {
+    font-size: 15px;
+  }
+
+  .overview-right h3 {
+    font-size: 21px;
+  }
+}
+
+/* -------------------- */
+/* MOBILE (≤768px) */
+/* -------------------- */
+@media (max-width: 768px) {
+  .service-overview {
+    padding: 80px 0;
+  }
+
+  .service-overview-container {
+    grid-template-columns: 1fr;
+    gap: 42px;
+  }
+
+  .overview-left p {
+    font-size: 15px;
+    margin-bottom: 22px;
+  }
+
+  .overview-right h3 {
+    font-size: 20px;
+  }
+
+  .overview-right li {
+    gap: 12px;
+    font-size: 14px;
+  }
+}
+
+/* -------------------- */
+/* SMALL MOBILE (≤480px) */
+/* -------------------- */
+@media (max-width: 480px) {
+  .service-overview {
+    padding: 70px 0;
+  }
+
+  .service-overview-container {
+    padding: 0 18px;
+  }
+
+  .overview-left p {
+    font-size: 14px;
+    line-height: 1.75;
+  }
+
+  .overview-right h3 {
+    font-size: 18px;
+  }
+
+  .overview-right li {
+    font-size: 13px;
+  }
+
+  .check {
+    width: 18px;
+    height: 18px;
+    min-width: 18px;
+  }
+}

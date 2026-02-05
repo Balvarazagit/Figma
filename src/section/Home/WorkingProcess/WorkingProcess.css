@@ -1,0 +1,189 @@
+.process-section {
+  background: #000;
+  color: #fff;
+  padding: 80px 80px;
+  text-align: center;
+}
+
+/* BADGE */
+.process-badge {
+  display: inline-block;
+  background: #111;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 14px;
+}
+
+/* TITLE */
+.process-title {
+  font-size: 40px;
+  margin-bottom: 90px;
+  line-height: 1.2;
+}
+
+/* GRID */
+.process-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CENTER LINE (DESKTOP ONLY) */
+.process-line {
+  position: absolute;
+  top: 210px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: #222;
+  z-index: 0;
+}
+
+/* CARD */
+.process-card {
+  position: relative;
+  z-index: 1;
+  padding-right: 30px;
+  text-align: left;
+  border-right: 1px solid #222;
+}
+
+.process-card:last-child {
+  border-right: none;
+}
+
+/* ICON */
+.process-icon {
+  width: 42px;
+  height: 42px;
+  margin-bottom: 18px;
+}
+
+/* TITLE */
+.process-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* DESC */
+.process-card p {
+  font-size: 14px;
+  color: #aaa;
+  line-height: 1.6;
+  max-width: 260px;
+}
+
+/* STEP NUMBER */
+.process-step-workingprogress {
+  position: absolute;
+  top: 193px;
+  left: -59px;
+  width: 36px;
+  height: 36px;
+  background: #111;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* =====================
+   RESPONSIVE BREAKPOINTS
+   ===================== */
+
+/* Large Tablets */
+@media (max-width: 1200px) {
+  .process-section {
+    padding: 70px 60px;
+  }
+
+  .process-title {
+    font-size: 34px;
+  }
+
+  .process-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+  .process-line {
+    display: none;
+  }
+
+  .process-card {
+    border-right: none;
+    padding-right: 0;
+  }
+
+  .process-step-workingprogress {
+    position: static;
+    margin-top: 20px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .process-section {
+    padding: 60px 40px;
+  }
+
+  .process-title {
+    font-size: 28px;
+    margin-bottom: 60px;
+  }
+
+  .process-wrapper {
+    gap: 40px;
+  }
+
+  .process-card {
+    text-align: center;
+  }
+
+  .process-card p {
+    margin: auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .process-section {
+    padding: 50px 20px;
+  }
+
+  .process-title {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .process-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .process-card h3 {
+    font-size: 16px;
+  }
+
+  .process-card p {
+    font-size: 13px;
+  }
+
+  .process-step-workingprogress {
+    margin-top: 16px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+  .process-title {
+    font-size: 22px;
+  }
+}

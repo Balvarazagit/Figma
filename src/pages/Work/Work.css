@@ -1,0 +1,21 @@
+.work-hero-bg {
+  min-height: 100vh;
+  background-color: black;
+
+  background-image:
+    url("../../assets/Dotted BG.png"),
+    url("../../assets/Subtract.png");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    center top,
+    center center;
+
+  background-size:
+    1100px auto,
+    1400px auto;
+
+  position: relative;
+  overflow: hidden;
+}

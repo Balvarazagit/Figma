@@ -1,0 +1,116 @@
+.contact-info {
+  padding: 80px 60px;
+  background: linear-gradient(180deg, #121212, #0b0b0b);
+}
+
+/* GRID */
+.contact-info-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+.contact-info-card {
+  background: linear-gradient(180deg, #121212, #0b0b0b);
+  border-radius: 22px;
+  padding: 26px 28px;
+  display: flex;
+  gap: 18px;
+  align-items: center;
+  box-shadow: 0 0 0 1px #1f1f1f;
+  transition: all 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 40px rgba(250, 204, 21, 0.08);
+}
+
+/* ICON */
+.contact-info-card .icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(250, 204, 21, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-info-card .icon img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(82%) sepia(52%) saturate(621%) hue-rotate(358deg);
+}
+
+/* TEXT */
+.contact-info-card h4 {
+  font-size: 16px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.contact-info-card p {
+  font-size: 14px;
+  color: #bdbdbd;
+  line-height: 1.4;
+}
+
+/* ---------------- TABLET (≤1024px) ---------------- */
+
+@media (max-width: 1024px) {
+  .contact-info {
+    padding: 70px 40px;
+  }
+
+  .contact-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ---------------- MOBILE (≤768px) ---------------- */
+
+@media (max-width: 768px) {
+  .contact-info {
+    padding: 60px 30px;
+  }
+
+  .contact-info-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info-card {
+    padding: 22px;
+    gap: 14px;
+  }
+
+  .contact-info-card h4 {
+    font-size: 15px;
+  }
+
+  .contact-info-card p {
+    font-size: 13px;
+  }
+}
+
+/* ---------------- SMALL MOBILE (≤480px) ---------------- */
+
+@media (max-width: 480px) {
+  .contact-info {
+    padding: 50px 18px;
+  }
+
+  .contact-info-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-info-card .icon {
+    width: 42px;
+    height: 42px;
+  }
+}

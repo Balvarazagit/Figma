@@ -1,0 +1,129 @@
+.stats {
+  background: black;
+  padding: 100px 80px 60px;
+  color: white;
+}
+
+/* CONTAINER */
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* CARD */
+.stat-card {
+  flex: 1;
+  max-width: 360px;
+}
+
+/* CONTENT ROW */
+.stat-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* TAG */
+.stat-tag {
+  display: inline-block;
+  background: #111;
+  padding: 6px 14px;
+  border-radius: 16px;
+  font-size: 13px;
+  margin-bottom: 14px;
+  color: #cfcfcf;
+}
+
+/* VALUE */
+.stat-value {
+  font-size: 36px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* DESCRIPTION */
+.stat-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+/* DIVIDER */
+.divider_stat {
+  margin-top: 60px;
+  height: 1px;
+  background: #222;
+  width: 100%;
+}
+
+/* =====================
+   RESPONSIVE BREAKPOINTS
+   ===================== */
+
+/* Large Tablets */
+@media (max-width: 1024px) {
+  .stats {
+    padding: 90px 60px 50px;
+  }
+
+  .stat-value {
+    font-size: 32px;
+  }
+
+  .stat-desc {
+    font-size: 13.5px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 900px) {
+  .stats-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .stat-content {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .stat-card {
+    max-width: 100%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .stats {
+    padding: 70px 20px 40px;
+  }
+
+  .stat-tag {
+    font-size: 12px;
+    padding: 5px 12px;
+  }
+
+  .stat-value {
+    font-size: 28px;
+  }
+
+  .stat-desc {
+    font-size: 13px;
+  }
+
+  .divider_stat {
+    margin-top: 40px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 420px) {
+  .stat-value {
+    font-size: 24px;
+  }
+}

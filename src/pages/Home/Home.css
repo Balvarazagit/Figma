@@ -1,0 +1,48 @@
+.home {
+  min-height: 100vh;
+  background-color: black;
+
+  background-image:
+    url("../../assets/Dotted BG.png"),
+    url("../../assets/Subtract.png");
+
+  background-repeat: no-repeat, no-repeat;
+
+  background-position:
+    center top,
+    center center;
+
+  background-size:
+    1100px auto,
+    1400px auto;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .home {
+    background-size:
+      800px auto,
+      1000px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .home {
+    background-size:
+      600px auto,
+      700px auto;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 480px) {
+  .home {
+    background-size:
+      450px auto,
+      550px auto;
+  }
+}
