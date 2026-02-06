@@ -1,5 +1,5 @@
 import "./ServiceOverview.css";
-import right from '../../../assets/right.png'
+import right from '../../../assets/Right.png'
 
 const ServiceOverview = ({ overview, approach, approachTitle }) => {
   return (

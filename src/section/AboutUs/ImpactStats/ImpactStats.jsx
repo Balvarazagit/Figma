@@ -1,8 +1,8 @@
 import "./ImpactStats.css";
-import icon1 from "../../../assets/about_hero1.png";
-import icon2 from "../../../assets/about_hero2.png";
-import icon3 from "../../../assets/about_hero2.png";
-import icon4 from "../../../assets/about_hero2.png";
+import icon1 from "../../../assets/About_hero1.png";
+import icon2 from "../../../assets/About_hero2.png";
+import icon3 from "../../../assets/About_hero2.png";
+import icon4 from "../../../assets/About_hero2.png";
 
 const stats = [
   {

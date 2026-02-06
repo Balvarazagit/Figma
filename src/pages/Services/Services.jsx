@@ -6,7 +6,7 @@ import ServicesSection from "../../section/Home/ServicesSection/ServicesSection"
 import Technologies from "../../section/Services/Technologies/Technologies";
 import E2ESection from "../../section/Services/E2ESection/E2ESection";
 import Industries from "../../section/Services/Industries/Industries";
-import servicesImg from "../../assets/about.png";
+import servicesImg from "../../assets/About.png";
 
 const Services = () => {
   return (

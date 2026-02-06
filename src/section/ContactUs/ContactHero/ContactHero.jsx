@@ -1,5 +1,5 @@
 import "./ContactHero.css";
-import contactImg from "../../../assets/about.png";
+import contactImg from "../../../assets/About.png";
 
 const ContactHero = () => {
   return (

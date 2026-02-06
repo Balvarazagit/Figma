@@ -7,7 +7,7 @@ import AboutE2E from "../../section/AboutUs/AboutE2E/AboutE2E";
 import TrustedSection from "../../section/Home/TrustedSection/TrustedSection";
 import TeamSection from "../../section/AboutUs/TeamSection/TeamSection";
 import Testimonials from "../../section/Home/Testimonials/Testimonials";
-import aboutImg from "../../assets/about.png";
+import aboutImg from "../../assets/About.png";
 
 const AboutUs = () => {
   return (

@@ -6,11 +6,11 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "./PortfolioSlider.css";
 
-import img1 from "../../../assets/portfolio1.png";
-import img2 from "../../../assets/portfolio2.png";
-import img3 from "../../../assets/portfolio3.png";
-import img4 from "../../../assets/portfolio4.png";
-import img5 from "../../../assets/portfolio5.png";
+import img1 from "../../../assets/Portfolio1.png";
+import img2 from "../../../assets/Portfolio2.png";
+import img3 from "../../../assets/Portfolio3.png";
+import img4 from "../../../assets/Portfolio4.png";
+import img5 from "../../../assets/Portfolio5.png";
 
 const projects = [
   {

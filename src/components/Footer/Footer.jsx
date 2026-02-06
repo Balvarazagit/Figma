@@ -1,9 +1,9 @@
 import "./Footer.css";
-import logo from "../../assets/logo.png";
-import fb from "../../assets/facebook.png";
-import be from "../../assets/be.png";
-import ln from "../../assets/linkedin.png";
-import dr from "../../assets/dribbble.png";
+import logo from "../../assets/Logo.png";
+import fb from "../../assets/Facebook.png";
+import be from "../../assets/Be.png";
+import ln from "../../assets/Linkedin.png";
+import dr from "../../assets/Dribbble.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {

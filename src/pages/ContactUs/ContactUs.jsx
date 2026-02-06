@@ -3,7 +3,6 @@ import ContactHero from "../../section/ContactUs/ContactHero/ContactHero";
 import ContactInfo from "../../section/ContactUs/ContactInfo/ContactInfo";
 import Footer from "../../components/Footer/Footer";
 import "./ContactUs.css";
-import AboutHero from "../../section/AboutUs/AboutHero/AboutHero";
 
 const ContactUs = () => {
   return (

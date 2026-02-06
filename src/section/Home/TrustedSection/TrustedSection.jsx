@@ -1,11 +1,11 @@
 import "./TrustedSection.css";
 
-import logo1 from "../../../assets/t1.png";
-import logo2 from "../../../assets/t2.png";
-import logo3 from "../../../assets/t3.png";
-import logo4 from "../../../assets/t4.png";
-import logo5 from "../../../assets/t5.png";
-import logo6 from "../../../assets/t6.png";
+import logo1 from "../../../assets/T1.png";
+import logo2 from "../../../assets/T2.png";
+import logo3 from "../../../assets/T3.png";
+import logo4 from "../../../assets/T4.png";
+import logo5 from "../../../assets/T5.png";
+import logo6 from "../../../assets/T6.png";
 
 const TrustedSection = () => {
   return (

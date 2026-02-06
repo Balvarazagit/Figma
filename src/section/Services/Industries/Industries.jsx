@@ -2,10 +2,10 @@ import "./Industries.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import aiIcon from "../../../assets/ai.png";
-import fintechIcon from "../../../assets/fintech.png";
-import edtechIcon from "../../../assets/edtech.png";
-import healthIcon from "../../../assets/healthcare.png";
+import aiIcon from "../../../assets/Ai.png";
+import fintechIcon from "../../../assets/Fintech.png";
+import edtechIcon from "../../../assets/Edtech.png";
+import healthIcon from "../../../assets/Healthcare.png";
 
 const industries = [
   {

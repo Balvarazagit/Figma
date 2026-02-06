@@ -1,9 +1,9 @@
 import React from "react";
 import "./WorkingProcess.css";
-import img1 from "../../../assets/working1.png";
-import img2 from "../../../assets/working2.png";
-import img3 from "../../../assets/working3.png";
-import img4 from "../../../assets/working4.png";
+import img1 from "../../../assets/Working1.png";
+import img2 from "../../../assets/Working2.png";
+import img3 from "../../../assets/Working3.png";
+import img4 from "../../../assets/Working4.png";
 
 const steps = [
   {

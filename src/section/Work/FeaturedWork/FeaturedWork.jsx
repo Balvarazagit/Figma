@@ -1,11 +1,11 @@
 import "./FeaturedWork.css";
 import { useNavigate } from "react-router-dom";
-import work1 from "../../../assets/feature1.png";
-import work2 from "../../../assets/feature2.png";
-import work3 from "../../../assets/feature3.png";
-import work4 from "../../../assets/feature4.png";
-import work5 from "../../../assets/feature5.png";
-import work6 from "../../../assets/feature6.png";
+import work1 from "../../../assets/Feature1.png";
+import work2 from "../../../assets/Feature2.png";
+import work3 from "../../../assets/Feature3.png";
+import work4 from "../../../assets/Feature4.png";
+import work5 from "../../../assets/Feature5.png";
+import work6 from "../../../assets/Feature6.png";
 
 const works = [
   {

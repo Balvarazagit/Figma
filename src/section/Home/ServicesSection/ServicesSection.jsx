@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./ServicesSection.css";
-import img1 from "../../../assets/s1.png";
-import img2 from "../../../assets/s1.png";
-import img3 from "../../../assets/s1.png";
-import img4 from "../../../assets/s1.png";
+import img1 from "../../../assets/S1.png";
+import img2 from "../../../assets/S1.png";
+import img3 from "../../../assets/S1.png";
+import img4 from "../../../assets/S1.png";
 
 const services = [
   {

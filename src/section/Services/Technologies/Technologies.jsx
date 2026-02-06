@@ -1,12 +1,8 @@
 import "./Technologies.css";
-import workflow from "../../../assets/workflow.png";
-import reactIcon from "../../../assets/react.png";
-import nextIcon from "../../../assets/next.png";
-import flutterIcon from "../../../assets/flutter.png";
-// import tailwindIcon from "../../assets/tailwind.png";
-// import nodeIcon from "../../assets/node.png";
-// import figmaIcon from "../../assets/figma.png";
-// import mongoIcon from "../../assets/mongo.png";
+import workflow from "../../../assets/Workflow.png";
+import reactIcon from "../../../assets/React.png";
+import nextIcon from "../../../assets/Next.png";
+import flutterIcon from "../../../assets/Flutter.png";
 
 const Technologies = () => {
   const techs = [

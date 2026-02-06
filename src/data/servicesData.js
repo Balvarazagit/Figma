@@ -1,5 +1,5 @@
-import img1 from "../assets/about.png";
-import img2 from "../assets/about_E2E.png";
+import img1 from "../assets/About.png";
+import img2 from "../assets/About_E2E.png";
 
 const commonProcess = {
   tag: "Working Process",

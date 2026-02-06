@@ -1,9 +1,9 @@
 import "./TeamSection.css";
-import m1 from "../../../assets/team1.png";
-import m2 from "../../../assets/team2.png";
-import m3 from "../../../assets/team3.png";
-import m4 from "../../../assets/team4.png";
-import linkedin from "../../../assets/linkedin.png";
+import m1 from "../../../assets/Team1.png";
+import m2 from "../../../assets/Team2.png";
+import m3 from "../../../assets/Team3.png";
+import m4 from "../../../assets/Team4.png";
+import linkedin from "../../../assets/Linkedin.png";
 
 const team = [
   {

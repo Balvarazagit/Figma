@@ -1,5 +1,5 @@
 import "./AboutE2E.css";
-import aboutImg from "../../../assets/about_E2E.png"; // image use karo
+import aboutImg from "../../../assets/About_E2E.png"; // image use karo
 
 const AboutE2E = () => {
   return (

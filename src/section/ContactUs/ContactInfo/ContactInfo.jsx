@@ -1,7 +1,7 @@
 import "./ContactInfo.css";
-import locationIcon from "../../../assets/location.png";
-import phoneIcon from "../../../assets/phone.png";
-import emailIcon from "../../../assets/mail.png";
+import locationIcon from "../../../assets/Location.png";
+import phoneIcon from "../../../assets/Phone.png";
+import emailIcon from "../../../assets/Mail.png";
 
 const ContactInfo = () => {
   return (

@@ -5,11 +5,11 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "./Testimonials.css";
 
-import user1 from "../../../assets/testimonial1.png";
-import user2 from "../../../assets/testimonial2.png";
-import user3 from "../../../assets/testimonial3.png";
-import user4 from "../../../assets/testimonial4.png";
-import user5 from "../../../assets/testimonial5.png";
+import user1 from "../../../assets/Testimonial1.png";
+import user2 from "../../../assets/Testimonial2.png";
+import user3 from "../../../assets/Testimonial3.png";
+import user4 from "../../../assets/Testimonial4.png";
+import user5 from "../../../assets/Testimonial5.png";
 
 const testimonials = [
   {

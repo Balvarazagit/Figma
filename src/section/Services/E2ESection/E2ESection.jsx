@@ -1,5 +1,5 @@
 import "./E2ESection.css";
-import teamImg from "../../../assets/about_E2E.png"; // apni image yaha lagao
+import teamImg from "../../../assets/About_E2E.png"; // apni image yaha lagao
 
 const E2ESection = () => {
   return (
