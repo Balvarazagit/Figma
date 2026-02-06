@@ -6,14 +6,12 @@ const ServiceOverview = ({ overview, approach, approachTitle }) => {
     <section className="service-overview">
       <div className="service-overview-container">
 
-        {/* LEFT CONTENT */}
         <div className="overview-left">
           {overview.map((para, index) => (
             <p key={index}>{para}</p>
           ))}
         </div>
 
-        {/* RIGHT CONTENT */}
         <div className="overview-right">
           <h3>{approachTitle}</h3>
 

@@ -14,7 +14,6 @@
   gap: 64px;
 }
 
-/* LEFT CONTENT */
 .overview-left p {
   color: #d1d1d1;
   line-height: 1.85;
@@ -22,7 +21,6 @@
   font-size: 16px;
 }
 
-/* RIGHT CONTENT */
 .overview-right h3 {
   font-size: 22px;
   margin-bottom: 26px;
@@ -49,7 +47,6 @@
   font-weight: 500;
 }
 
-/* CHECK ICON */
 .check {
   width: 22px;
   height: 22px;
@@ -65,9 +62,6 @@
   opacity: 0.9;
 }
 
-/* -------------------- */
-/* TABLET (≤1024px) */
-/* -------------------- */
 @media (max-width: 1024px) {
   .service-overview {
     padding: 90px 0;
@@ -86,9 +80,6 @@
   }
 }
 
-/* -------------------- */
-/* MOBILE (≤768px) */
-/* -------------------- */
 @media (max-width: 768px) {
   .service-overview {
     padding: 80px 0;
@@ -114,9 +105,6 @@
   }
 }
 
-/* -------------------- */
-/* SMALL MOBILE (≤480px) */
-/* -------------------- */
 @media (max-width: 480px) {
   .service-overview {
     padding: 70px 0;

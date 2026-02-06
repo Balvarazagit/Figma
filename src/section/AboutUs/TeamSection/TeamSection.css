@@ -1,7 +1,3 @@
-/* =========================
-   BASE (Desktop)
-========================= */
-
 .team-section {
   background: #000;
   padding: 100px 80px;
@@ -24,7 +20,6 @@
   margin-bottom: 70px;
 }
 
-/* GRID */
 .team-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -33,7 +28,6 @@
   margin: 0 auto;
 }
 
-/* CARD */
 .team-card {
   padding: 18px;
   border-radius: 24px;
@@ -45,7 +39,6 @@
   box-shadow: 0 20px 60px rgba(250, 204, 21, 0.08);
 }
 
-/* IMAGE */
 .team-img {
   border-radius: 22px;
   overflow: hidden;
@@ -57,7 +50,6 @@
   object-fit: cover;
 }
 
-/* INFO */
 .team-info {
   display: flex;
   justify-content: space-between;
@@ -76,7 +68,6 @@
   color: #aaa;
 }
 
-/* LINKEDIN */
 .linkedin {
   width: 26px;
   height: 26px;
@@ -87,10 +78,6 @@
 .linkedin:hover {
   transform: scale(1.1);
 }
-
-/* =========================
-   LAPTOP / TABLET (≤1024px)
-========================= */
 
 @media (max-width: 1024px) {
   .team-section {
@@ -111,10 +98,6 @@
     height: 300px;
   }
 }
-
-/* =========================
-   MOBILE (≤768px)
-========================= */
 
 @media (max-width: 768px) {
   .team-section {
@@ -139,10 +122,6 @@
     align-items: flex-start;
   }
 }
-
-/* =========================
-   SMALL MOBILE (≤480px)
-========================= */
 
 @media (max-width: 480px) {
   .team-title {

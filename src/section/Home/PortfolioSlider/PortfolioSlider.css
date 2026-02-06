@@ -4,7 +4,6 @@
   padding: 80px 60px;
 }
 
-/* HEADER */
 .portfolio-header {
   margin-bottom: 40px;
 }
@@ -32,7 +31,6 @@
   max-width: 800px;
 }
 
-/* BUTTON */
 .view-all {
   background: #facc15;
   border: none;
@@ -43,7 +41,6 @@
   white-space: nowrap;
 }
 
-/* CARD */
 .portfolio-card {
   background: #0c0c0c;
   border-radius: 20px;
@@ -68,7 +65,6 @@
   object-fit: cover;
 }
 
-/* TEXT */
 .portfolio-card h3 {
   font-size: 16px;
   margin-bottom: 6px;
@@ -80,17 +76,11 @@
   line-height: 1.6;
 }
 
-/* Hide swiper arrows */
 .swiper-button-next,
 .swiper-button-prev {
   display: none !important;
 }
 
-/* =====================
-   RESPONSIVE BREAKPOINTS
-   ===================== */
-
-/* Large Tablets */
 @media (max-width: 1024px) {
   .portfolio-section {
     padding: 70px 40px;
@@ -105,7 +95,6 @@
   }
 }
 
-/* Tablets */
 @media (max-width: 768px) {
   .portfolio-section {
     padding: 60px 30px;
@@ -131,7 +120,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .portfolio-section {
     padding: 50px 20px;
@@ -164,7 +152,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 360px) {
   .image-wrapper img {
     height: 180px;

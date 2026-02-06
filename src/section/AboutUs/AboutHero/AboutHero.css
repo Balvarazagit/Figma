@@ -1,6 +1,3 @@
-/* =========================
-   BASE (Desktop)
-========================= */
 .about {
   height: 100vh;
   color: white;
@@ -18,7 +15,6 @@
 
 .about-hero {
   position: relative;
-  /* background: #000; */
   color: #fff;
   overflow: hidden;
 }
@@ -33,7 +29,6 @@
   margin: 0 auto;
 }
 
-/* LEFT CONTENT */
 .about-hero-content {
   flex: 1;
   text-align: left;
@@ -65,7 +60,6 @@
   margin-bottom: 30px;
 }
 
-/* BUTTON */
 .hero-btn {
   background: #facc15;
   color: #000;
@@ -82,7 +76,6 @@
   transform: translateX(4px);
 }
 
-/* RIGHT IMAGE */
 .about-hero-image {
   flex: 1;
   border-radius: 28px;
@@ -96,10 +89,6 @@
   object-fit: cover;
 }
 
-/* =========================
-   TABLET (≤1024px)
-========================= */
-
 @media (max-width: 1024px) {
   .about-hero-container {
     padding: 140px 40px 80px;
@@ -110,10 +99,6 @@
     font-size: 40px;
   }
 }
-
-/* =========================
-   MOBILE (≤900px)
-========================= */
 
 @media (max-width: 900px) {
   .about-hero-container {
@@ -138,10 +123,6 @@
     margin: 0 auto;
   }
 }
-
-/* =========================
-   SMALL MOBILE (≤480px)
-========================= */
 
 @media (max-width: 480px) {
   .about-hero-container {

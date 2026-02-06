@@ -20,7 +20,6 @@
   overflow: hidden;
 }
 
-/* Tablets */
 @media (max-width: 1024px) {
   .home {
     background-size:
@@ -29,7 +28,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .home {
     background-size:
@@ -38,7 +36,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
   .home {
     background-size:

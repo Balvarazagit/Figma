@@ -8,14 +8,12 @@ const Navbar = () => {
 
   return (
     <nav className="navbar">
-      {/* LOGO */}
       <div className="logo">
         <Link to="/">
           <img src={logo} alt="Company Logo" />
         </Link>
       </div>
 
-      {/* MENU */}
       <ul className={`menu ${open ? "open" : ""}`}>
         <li><NavLink to="/" end onClick={() => setOpen(false)}>Home</NavLink></li>
         <li><NavLink to="/about" onClick={() => setOpen(false)}>About</NavLink></li>
@@ -23,7 +21,6 @@ const Navbar = () => {
         <li><NavLink to="/process" onClick={() => setOpen(false)}>Process</NavLink></li>
         <li><NavLink to="/work" onClick={() => setOpen(false)}>Work</NavLink></li>
 
-        {/* Mobile Contact Button */}
         <li className="mobile-btn">
           <Link to="/contact" onClick={() => setOpen(false)}>
             <button className="contact-btn-1">Contact Us</button>
@@ -31,12 +28,10 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* DESKTOP BUTTON */}
       <Link to="/contact" className="desktop-btn">
         <button className="contact-btn">Contact Us</button>
       </Link>
 
-      {/* HAMBURGER */}
       <div className={`hamburger ${open ? "active" : ""}`} onClick={() => setOpen(!open)}>
         <span></span>
         <span></span>

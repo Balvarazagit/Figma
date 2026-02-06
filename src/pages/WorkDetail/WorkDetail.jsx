@@ -73,40 +73,39 @@ const WorkDetail = () => {
         </section>
       </div>
       <section className="work-content">
-  <div className="content-wrapper"> {/* Add this wrapper */}
-    <div className="work-image-wrapper">
-      <img src={work.img} alt={work.title} />
-    </div>
+        <div className="content-wrapper">
+          <div className="work-image-wrapper">
+            <img src={work.img} alt={work.title} />
+          </div>
 
-    {/* CHALLENGE */}
-    <div className="work-section">
-      <h2>The Challenge</h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum lobortis risus, sed consequat sem lobortis ut. Duis ut enim non magna laoreet sagittis tincidunt eu libero. Morbi commodo, arcu vitae vestibulum finibus, ex magna aliquet lacus, gravida imperdiet tortor sem vitae ante. Vivamus est nisi, molestie ut tortor vitae, tincidunt aliquet augue. Phasellus sed velit quis dui blandit auctor. Pellentesque a lobortis lorem. Aliquam et risus velit.
-      </p>
-    </div>
+          <div className="work-section">
+            <h2>The Challenge</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum lobortis risus, sed consequat sem lobortis ut. Duis ut enim non magna laoreet sagittis tincidunt eu libero. Morbi commodo, arcu vitae vestibulum finibus, ex magna aliquet lacus, gravida imperdiet tortor sem vitae ante. Vivamus est nisi, molestie ut tortor vitae, tincidunt aliquet augue. Phasellus sed velit quis dui blandit auctor. Pellentesque a lobortis lorem. Aliquam et risus velit.
+            </p>
+          </div>
 
-    {/* IMAGE GRID */}
-    <div className="work-image-grid">
-      <div className="grid-card">
-        <img src={work.img} alt="Preview 1" />
-      </div>
-      <div className="grid-card">
-        <img src={work.img} alt="Preview 2" />
-      </div>
-    </div>
+          <div className="work-image-grid">
+            <div className="grid-card">
+              <img src={work.img} alt="Preview 1" />
+            </div>
+            <div className="grid-card">
+              <img src={work.img} alt="Preview 2" />
+            </div>
+          </div>
 
-    {/* RESULTS */}
-    <div className="work-section">
-      <h2>The Results</h2>
-      <p>
-       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum lobortis risus, sed consequat sem lobortis ut. Duis ut enim non magna laoreet sagittis tincidunt eu libero. Morbi commodo, arcu vitae vestibulum finibus, ex magna aliquet lacus, gravida imperdiet tortor sem vitae ante. Vivamus est nisi, molestie ut tortor vitae, tincidunt aliquet augue. Phasellus sed velit quis dui blandit auctor. Pellentesque a lobortis lorem.
-      </p>
-      <br/>
-      <p> Aliquam et risus velit. Duis nec justo mattis, malesuada tortor quis, sagittis eros. Aenean efficitur neque euismod lobortis mattis. Vestibulum non finibus eros, eu finibus ante. Nunc feugiat molestie pellentesque. Donec blandit vitae ipsum nec ullamcorper. Fusce dapibus tortor et orci interdum, quis fermentum nisl pretium. </p>
-    </div>
-  </div> {/* Close wrapper */}
-</section>
+          <div className="work-section">
+            <h2>The Results</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum lobortis risus, sed consequat sem lobortis ut. Duis ut enim non magna laoreet sagittis tincidunt eu libero. Morbi commodo, arcu vitae vestibulum finibus, ex magna aliquet lacus, gravida imperdiet tortor sem vitae ante. Vivamus est nisi, molestie ut tortor vitae, tincidunt aliquet augue. Phasellus sed velit quis dui blandit auctor. Pellentesque a lobortis lorem.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum lobortis risus, sed consequat sem lobortis ut. Duis ut enim non magna laoreet sagittis tincidunt eu libero. Morbi commodo, arcu vitae vestibulum finibus, ex magna aliquet lacus, gravida imperdiet tortor sem vitae ante. Vivamus est nisi, molestie ut tortor vitae, tincidunt aliquet augue. Phasellus sed velit quis dui blandit auctor. Pellentesque a lobortis lorem.
+            </p>    
+          </div>
+        </div> 
+   </section>
       <Footer />
     </>
   );

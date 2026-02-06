@@ -13,7 +13,6 @@
   z-index: 2;
 }
 
-/* Desktop */
 .hero h1 {
   font-size: 56px;
   font-weight: 700;
@@ -31,14 +30,12 @@
   font-size: 18px;
 }
 
-/* Buttons */
 .buttons {
   margin-top: 30px;
   display: flex;
   gap: 20px;
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .hero h1 {
     font-size: 46px;
@@ -49,7 +46,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 36px;
@@ -72,7 +68,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
   .hero h1 {
     font-size: 30px;

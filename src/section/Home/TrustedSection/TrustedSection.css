@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-/* BADGE */
 .badge {
   display: inline-block;
   background: #111;
@@ -17,7 +16,6 @@
   letter-spacing: 0.5px;
 }
 
-/* HEADING */
 .trusted h2 {
   font-size: 32px;
   font-weight: 600;
@@ -29,7 +27,6 @@
   color: #facc15;
 }
 
-/* LOGO GRID */
 .logos {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -38,7 +35,6 @@
   margin: auto;
 }
 
-/* LOGO CARD */
 .logo-card {
   background: #0f0f0f;
   border-radius: 16px;
@@ -63,7 +59,6 @@
   color: #888;
 }
 
-/* HOVER (DESKTOP) */
 .logo-card:hover {
   opacity: 1;
   transform: translateY(-6px);
@@ -74,18 +69,12 @@
   filter: grayscale(0);
 }
 
-/* =====================
-   RESPONSIVE BREAKPOINTS
-   ===================== */
-
-/* Large tablets */
 @media (max-width: 1200px) {
   .logos {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-/* Tablets */
 @media (max-width: 1024px) {
   .trusted {
     padding: 70px 20px;
@@ -100,7 +89,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 768px) {
   .trusted {
     padding: 60px 16px;
@@ -125,7 +113,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 480px) {
   .trusted h2 {
     font-size: 22px;
@@ -139,7 +126,6 @@
     height: 34px;
   }
 
-  /* Disable hover jump on very small screens */
   .logo-card:hover {
     transform: none;
     box-shadow: none;

@@ -4,7 +4,6 @@
   color: white;
 }
 
-/* CONTAINER */
 .stats-container {
   display: flex;
   justify-content: space-between;
@@ -13,20 +12,17 @@
   margin: auto;
 }
 
-/* CARD */
 .stat-card {
   flex: 1;
   max-width: 360px;
 }
 
-/* CONTENT ROW */
 .stat-content {
   display: flex;
   align-items: center;
   gap: 20px;
 }
 
-/* TAG */
 .stat-tag {
   display: inline-block;
   background: #111;
@@ -37,21 +33,18 @@
   color: #cfcfcf;
 }
 
-/* VALUE */
 .stat-value {
   font-size: 36px;
   font-weight: 700;
   white-space: nowrap;
 }
 
-/* DESCRIPTION */
 .stat-desc {
   font-size: 14px;
   line-height: 1.6;
   color: #aaa;
 }
 
-/* DIVIDER */
 .divider_stat {
   margin-top: 60px;
   height: 1px;
@@ -59,11 +52,6 @@
   width: 100%;
 }
 
-/* =====================
-   RESPONSIVE BREAKPOINTS
-   ===================== */
-
-/* Large Tablets */
 @media (max-width: 1024px) {
   .stats {
     padding: 90px 60px 50px;
@@ -78,7 +66,6 @@
   }
 }
 
-/* Tablets */
 @media (max-width: 900px) {
   .stats-container {
     flex-direction: column;
@@ -97,7 +84,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .stats {
     padding: 70px 20px 40px;
@@ -121,7 +107,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 420px) {
   .stat-value {
     font-size: 24px;

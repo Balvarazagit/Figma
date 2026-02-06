@@ -13,7 +13,6 @@ const AboutHero = ({
     <section className="about-hero">
       <div className="about-hero-container">
 
-        {/* LEFT CONTENT */}
         <div className="about-hero-content">
           <span className="tagline">{tagline}</span>
 
@@ -31,7 +30,6 @@ const AboutHero = ({
           )}
         </div>
 
-        {/* RIGHT IMAGE */}
         <div className="about-hero-image">
           <img src={image} alt={altText} />
         </div>

@@ -4,7 +4,6 @@
   color: white;
 }
 
-/* CONTAINER */
 .services_container {
   width: 100%;
   max-width: 1200px;
@@ -30,12 +29,10 @@
   font-weight: 600;
 }
 
-/* LIST */
 .list {
   width: 100%;
 }
 
-/* ITEM */
 .item {
   position: relative;
   padding: 24px 0;
@@ -43,7 +40,6 @@
   cursor: pointer;
 }
 
-/* TITLE ROW */
 .title-row {
   display: flex;
   align-items: center;
@@ -81,7 +77,6 @@
   color: #facc15;
 }
 
-/* DESCRIPTION */
 .desc {
   margin-left: 40px;
   margin-top: 12px;
@@ -92,7 +87,6 @@
   animation: fadeIn 0.3s ease;
 }
 
-/* IMAGE (DESKTOP) */
 .hover-image {
   position: absolute;
   right: 40px;
@@ -108,7 +102,6 @@
   opacity: 1;
 }
 
-/* ANIMATION */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -120,11 +113,6 @@
   }
 }
 
-/* =====================
-   RESPONSIVE BREAKPOINTS
-   ===================== */
-
-/* Large Tablets */
 @media (max-width: 1024px) {
   .services {
     padding: 100px 60px;
@@ -140,7 +128,6 @@
   }
 }
 
-/* Tablets */
 @media (max-width: 768px) {
   .services {
     padding: 80px 40px;
@@ -164,7 +151,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .services {
     padding: 70px 20px;
@@ -199,7 +185,6 @@
     font-size: 12px;
   }
 
-  /* Mobile UX: no hover image */
   .hover-image {
     display: none;
   }

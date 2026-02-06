@@ -1,17 +1,15 @@
 import "./AboutE2E.css";
-import aboutImg from "../../../assets/About_E2E.png"; // image use karo
+import aboutImg from "../../../assets/About_E2E.png";
 
 const AboutE2E = () => {
   return (
     <section className="about-e2e">
       <div className="about-e2e-container">
 
-        {/* LEFT IMAGE */}
         <div className="about-e2e-image">
           <img src={aboutImg} alt="About E2E" />
         </div>
 
-        {/* RIGHT CONTENT */}
         <div className="about-e2e-content">
           <span className="badge">About E2E</span>
 

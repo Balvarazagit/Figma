@@ -7,13 +7,11 @@ import "./ContactUs.css";
 const ContactUs = () => {
   return (
     <>
-      {/* BACKGROUND WRAPPER */}
        <div className="contact">
               <Navbar />
               <ContactHero />
             </div>
 
-      {/* REST SECTIONS */}
       <ContactInfo />
       <Footer />
     </>

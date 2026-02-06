@@ -11,7 +11,6 @@
   text-align: center;
 }
 
-/* BADGE */
 .badge {
   display: inline-block;
   padding: 6px 14px;
@@ -22,7 +21,6 @@
   margin-bottom: 18px;
 }
 
-/* TITLE */
 .industries h2 {
   font-size: 38px;
   margin-bottom: 60px;
@@ -33,7 +31,6 @@
   color: #facc15;
 }
 
-/* CARD */
 .industry-card {
   background: linear-gradient(180deg, #121212, #0b0b0b);
   border-radius: 22px;
@@ -80,20 +77,15 @@
   line-height: 1.6;
 }
 
-/* SWIPER FIXES */
 .swiper-slide {
   height: auto;
 }
 
-/* REMOVE ARROWS */
 .swiper-button-prev,
 .swiper-button-next {
   display: none !important;
 }
 
-/* -------------------- */
-/* TABLET (≤1024px) */
-/* -------------------- */
 @media (max-width: 1024px) {
   .industries {
     padding: 100px 40px;
@@ -109,9 +101,6 @@
   }
 }
 
-/* -------------------- */
-/* MOBILE (≤768px) */
-/* -------------------- */
 @media (max-width: 768px) {
   .industries {
     padding: 90px 24px;
@@ -136,9 +125,6 @@
   }
 }
 
-/* -------------------- */
-/* SMALL MOBILE (≤480px) */
-/* -------------------- */
 @media (max-width: 480px) {
   .industries {
     padding: 80px 18px;

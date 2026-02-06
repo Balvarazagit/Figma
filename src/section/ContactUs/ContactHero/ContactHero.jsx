@@ -5,7 +5,6 @@ const ContactHero = () => {
   return (
     <section className="contact-hero">
       <div className="contact_content">
-      {/* HERO TEXT */}
       <h1>
         Ready to Discuss Your <br /> <span>Next Project</span>
       </h1>
@@ -14,14 +13,11 @@ const ContactHero = () => {
         the right direction and next steps.
       </p>
 </div>
-      {/* IMAGE + FORM SECTION */}
       <div className="contact_box">
-        {/* LEFT IMAGE */}
         <div className="contact_box-image">
           <img src={contactImg} alt="team discussion" />
         </div>
 
-        {/* RIGHT FORM */}
         <form className="contact_box-form">
           <div className="form-group full">
             <label>Full Name *</label>

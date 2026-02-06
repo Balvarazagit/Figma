@@ -11,7 +11,6 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
 
-        {/* LEFT */}
         <div className="footer-left">
           <img src={logo} alt="E2E Consultant" className="footer-logo" />
           <p>
@@ -29,7 +28,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* CENTER */}
         <div className="footer-center">
           <h2>
             Let's talk <br /> about your <br /> business goals.
@@ -37,7 +35,6 @@ export default function Footer() {
           <button className="cta-btn">Connect with us →</button>
         </div>
 
-        {/* RIGHT */}
         <div className="footer-right">
           <div className="location">
             <h4>New York</h4>

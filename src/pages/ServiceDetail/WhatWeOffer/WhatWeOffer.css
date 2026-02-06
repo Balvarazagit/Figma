@@ -16,14 +16,12 @@
   margin-bottom: 60px;
 }
 
-/* GRID */
 .offer-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
-/* CARD */
 .offer-card h4 {
   font-size: 18px;
   margin-bottom: 20px;
@@ -40,7 +38,6 @@
   margin-bottom: 10px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .offer-grid {
     grid-template-columns: 1fr;

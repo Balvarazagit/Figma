@@ -6,12 +6,10 @@ const E2ESection = () => {
     <section className="e2e">
       <div className="e2e-wrapper">
 
-        {/* LEFT IMAGE */}
         <div className="e2e-image">
           <img src={teamImg} alt="Team discussion" />
         </div>
 
-        {/* RIGHT CONTENT */}
         <div className="e2e-content">
           <span className="e2e-badge">E2E Advantage</span>
 

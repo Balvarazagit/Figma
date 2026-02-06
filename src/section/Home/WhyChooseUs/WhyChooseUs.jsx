@@ -9,12 +9,10 @@ const WhyChooseUs = () => {
     <section className="why">
       <div className="why-container">
 
-        {/* LEFT IMAGE */}
         <div className="why-image">
           <img src={teamImg} alt="Team discussion" />
         </div>
 
-        {/* RIGHT CONTENT */}
         <div className="why-content">
           <span className="why-tag">Why choose us</span>
 
@@ -26,7 +24,7 @@ const WhyChooseUs = () => {
           <div className="why-list">
 
             <div className="why-item">
-              <div className="icon"> <img src={icon1} alt="Icon 1" /></div>
+              <div className="icon_whychoose"> <img src={icon1} alt="Icon 1" /></div>
               <div className="icon_content">
                 <h4>Understand Your Needs</h4>
                 <p>
@@ -38,7 +36,7 @@ const WhyChooseUs = () => {
             <div className="divider"></div>
 
             <div className="why-item">
-              <div className="icon"> <img src={icon2} alt="Icon 2" /></div>
+              <div className="icon_whychoose"> <img src={icon2} alt="Icon 2" /></div>
               <div>
                 <h4>Create Your Solution</h4>
                 <p>
@@ -49,7 +47,7 @@ const WhyChooseUs = () => {
             <div className="divider"></div>
 
             <div className="why-item">
-              <div className="icon"> <img src={icon3} alt="Icon 3" /></div>
+              <div className="icon_whychoose"> <img src={icon3} alt="Icon 3" /></div>
               <div>
                 <h4>Perfect & Deliver</h4>
                 <p>

@@ -6,7 +6,6 @@
   color: #fff;
 }
 
-/* BADGE */
 .badge {
   display: inline-block;
   padding: 6px 14px;
@@ -17,7 +16,6 @@
   margin-bottom: 18px;
 }
 
-/* TITLE */
 .work-hero h1 {
   font-size: 48px;
   line-height: 1.2;
@@ -28,15 +26,12 @@
   color: #facc15;
 }
 
-/* DESCRIPTION */
 .work-hero p {
   max-width: 620px;
   font-size: 15px;
   color: #cfcfcf;
   line-height: 1.7;
 }
-
-/* ---------------- TABLET (≤1024px) ---------------- */
 
 @media (max-width: 1024px) {
   .work-hero {
@@ -47,8 +42,6 @@
     font-size: 40px;
   }
 }
-
-/* ---------------- MOBILE (≤768px) ---------------- */
 
 @media (max-width: 768px) {
   .work-hero {
@@ -64,8 +57,6 @@
     font-size: 34px;
   }
 }
-
-/* ---------------- SMALL MOBILE (≤480px) ---------------- */
 
 @media (max-width: 480px) {
   .work-hero {

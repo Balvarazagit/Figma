@@ -56,7 +56,7 @@ export default function ServicesSection() {
               className={`item ${active === index ? "active" : ""}`}
               onMouseEnter={() => setActive(index)}
               onMouseLeave={() => setActive(null)}
-              onClick={() => navigate(`/services/${item.slug}`)} // 👈 CLICK ACTION
+              onClick={() => navigate(`/services/${item.slug}`)}
             >
               <div className="title-row">
                 <span className="number">{item.id}</span>

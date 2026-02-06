@@ -13,7 +13,6 @@
   align-items: center;
 }
 
-/* IMAGE */
 .e2e-image {
   border-radius: 30px;
   overflow: hidden;
@@ -26,7 +25,6 @@
   object-fit: cover;
 }
 
-/* CONTENT */
 .e2e-badge {
   display: inline-block;
   padding: 6px 14px;
@@ -54,7 +52,6 @@
   margin-bottom: 40px;
 }
 
-/* POINTS */
 .e2e-points {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -72,7 +69,6 @@
   line-height: 1.6;
 }
 
-/* RESPONSIVE */
 @media (max-width: 992px) {
   .e2e-wrapper {
     grid-template-columns: 1fr;

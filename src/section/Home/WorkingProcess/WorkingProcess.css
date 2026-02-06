@@ -5,7 +5,6 @@
   text-align: center;
 }
 
-/* BADGE */
 .process-badge {
   display: inline-block;
   background: #111;
@@ -16,14 +15,12 @@
   margin-bottom: 14px;
 }
 
-/* TITLE */
 .process-title {
   font-size: 40px;
   margin-bottom: 90px;
   line-height: 1.2;
 }
 
-/* GRID */
 .process-wrapper {
   position: relative;
   display: grid;
@@ -33,7 +30,6 @@
   margin: auto;
 }
 
-/* CENTER LINE (DESKTOP ONLY) */
 .process-line {
   position: absolute;
   top: 210px;
@@ -44,7 +40,6 @@
   z-index: 0;
 }
 
-/* CARD */
 .process-card {
   position: relative;
   z-index: 1;
@@ -57,20 +52,17 @@
   border-right: none;
 }
 
-/* ICON */
 .process-icon {
   width: 42px;
   height: 42px;
   margin-bottom: 18px;
 }
 
-/* TITLE */
 .process-card h3 {
   font-size: 18px;
   margin-bottom: 10px;
 }
 
-/* DESC */
 .process-card p {
   font-size: 14px;
   color: #aaa;
@@ -78,7 +70,6 @@
   max-width: 260px;
 }
 
-/* STEP NUMBER */
 .process-step-workingprogress {
   position: absolute;
   top: 193px;
@@ -94,11 +85,6 @@
   color: #ccc;
 }
 
-/* =====================
-   RESPONSIVE BREAKPOINTS
-   ===================== */
-
-/* Large Tablets */
 @media (max-width: 1200px) {
   .process-section {
     padding: 70px 60px;
@@ -128,7 +114,6 @@
   }
 }
 
-/* Tablets */
 @media (max-width: 768px) {
   .process-section {
     padding: 60px 40px;
@@ -152,7 +137,6 @@
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .process-section {
     padding: 50px 20px;
@@ -181,7 +165,6 @@
   }
 }
 
-/* Small Mobile */
 @media (max-width: 360px) {
   .process-title {
     font-size: 22px;
